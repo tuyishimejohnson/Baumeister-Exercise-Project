@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-FkE_kTzO.css">
+</head>
+<script>
+    const loadComponents = (id, url) => {
+        fetch(url)
+            .then((response) => response.text())
+            .then((html) => {
+                document.getElementById(id).innerHTML = html;
+            });
+    }
+
+    window.onload = () => {
+        loadComponents('header', 'src/sections/header.html');
+        loadComponents('about', 'src/sections/about.html');
+
+
+    }
+</script>
+
+<body class="font-outfit">
+    <section id="header"></section>
+    <section class="text-red-700 bg-yellow">This is the hero section</section>
+
+    <section id="about"></section>
+
+    <section class="text-yellow-700 bg-blue">This is the contact section</section>
+    <footer class="text-purple-700 bg-red">This is the footer</footer>
+</body>
+
+</html>
