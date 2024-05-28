@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx,html}"],
   theme: {
     extend: {
       fontFamily: {
@@ -13,6 +13,12 @@ module.exports = {
         blue: "#0F2CCE",
         pink: "#FF93C8",
         black: "#000000",
+      },
+      fontSize: {
+        "12xl": "3rem",
+      },
+      width: {
+        287.5: "1150px",
       },
     },
   },
