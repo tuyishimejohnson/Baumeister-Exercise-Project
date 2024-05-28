@@ -7,12 +7,12 @@ module.exports = {
         outfit: ["Outfit", "sans-serif"],
       },
       colors: {
-        green: "#00672E",
-        yellow: "#FFE800",
-        red: "#E31C24",
-        blue: "#0F2CCE",
-        pink: "#FF93C8",
-        black: "#000000",
+        customGreen: "#00672E",
+        customYellow: "#FFE800",
+        customRed: "#E31C24",
+        customBlue: "#0F2CCE",
+        customPink: "#FF93C8",
+        customBlack: "#000000",
       },
       fontSize: {
         "12xl": "3rem",
