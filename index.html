@@ -28,16 +28,20 @@
     }
 </script>
 
+    window.onload = () => {
+        loadComponents('hero', 'src/sections/hero.html');
+    }
+</script>
 <body class="font-outfit">
-    <section id="header"></section>
+    <div class="max-w-[1300px] mx-auto">
+        <section id="header"></section>
+        <section id="hero"></section>
     <section class="text-red-700 bg-yellow">This is the hero section</section>
     <section id="about"></section>
     <section id="services"></section>
     <section id="sticky-yellow" class="sticky top-0 -z-10"></section>
     <section id="reference" class=""></section>
-
     <section id="footer"></section>
-
+    </div>
 </body>
-
 </html>
