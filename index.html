@@ -7,14 +7,24 @@
     <link rel="stylesheet" href="/src/input.css">
 
     <title>Document</title>
+    <script>
+        const loadComponents = (id, url) =>  {
+            fetch(url)
+            .then((response) => response.text())
+            .then((html) => {
+                document.getElementById(id).innerHTML = html;
+            });
+        }
+    
+        window.onload = () => {
+            loadComponents('header', 'src/sections/header.html');
+
+        }
+    </script>
 </head>
 
 <body class="font-outfit">
-    <header class="text-green-200 bg-green">This the header</header>
-    <section class="text-red-700 bg-yellow">This is the hero section</section>
-    <section class="text-blue-700 bg-pink">This is the about section</section>
-    <section class="text-yellow-700 bg-blue">This is the contact section</section>
-    <footer class="text-purple-700 bg-red">This is the footer</footer>
+    <div id="header"></div>
 </body>
 
 </html>
