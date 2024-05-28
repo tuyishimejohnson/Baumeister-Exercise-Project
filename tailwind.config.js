@@ -20,6 +20,10 @@ module.exports = {
       width: {
         287.5: "1150px",
       },
+      backgroundImage: {
+        "hero-pattern": "url('/src/assets/images/yellow-background-vector.svg')",
+      },
+      
     },
   },
   plugins: [],
