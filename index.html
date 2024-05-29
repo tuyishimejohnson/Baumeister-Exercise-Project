@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/input.css">
+    <link rel="stylesheet" href="./dist/output.css">
     <title>Document</title>    
 </head>
 <script>
@@ -23,21 +23,23 @@
         loadComponents('sticky-yellow', 'src/sections/sticky-yellow.html');
         loadComponents('reference', 'src/sections/reference.html');
         loadComponents("footer", 'src/sections/footer.html');
-
-
+        loadComponents("hero", 'src/sections/hero.html');
     }
-</script>
 
-<body class="font-outfit">
-    <section id="header"></section>
-    <section class="text-red-700 bg-yellow">This is the hero section</section>
-    <section id="about"></section>
-    <section id="services"></section>
-    <section id="sticky-yellow" class="sticky top-0 -z-10"></section>
-    <section id="reference" class=""></section>
-
-    <section id="footer"></section>
-
-</body>
-
+    </script>
+  <body class="font-outfit">
+    <div class="mx-auto max-w-[1600px]">
+      <!-- header -->
+      <section id="header"></section>
+      <!-- sections -->
+      <div class="mt-[12vh]">
+        <section id="hero"></section>
+        <section id="about"></section>
+        <section id="services"></section>
+        <section id="sticky-yellow" class="sticky top-0 -z-10"></section>
+        <section id="reference" class=""></section>
+        <section id="footer"></section>
+      </div>
+    </div>
+  </body>
 </html>
