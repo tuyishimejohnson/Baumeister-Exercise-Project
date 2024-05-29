@@ -24,9 +24,10 @@ module.exports = {
         "hero-pattern": "url('/src/assets/images/yellow-background-vector.svg')",
       },
       spacing: {
-        12: "3rem",
-        20: "20rem",
-        54: "54rem"
+        '12w': "3rem",
+        '20w': "5rem",
+        '54w': "13.5rem"
+
       }
     },
   },
