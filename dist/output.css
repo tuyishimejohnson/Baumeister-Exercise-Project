@@ -749,16 +749,16 @@ video {
   width: 1150px;
 }
 
+.w-54w{
+  width: 13.5rem;
+}
+
 .w-8\/12{
   width: 66.666667%;
 }
 
 .w-9\/12{
   width: 75%;
-}
-
-.w-\[13\.5rem\]{
-  width: 13.5rem;
 }
 
 .w-\[15\%\]{
@@ -787,10 +787,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-54w{
-  width: 13.5rem;
 }
 
 .max-w-\[1600px\]{
