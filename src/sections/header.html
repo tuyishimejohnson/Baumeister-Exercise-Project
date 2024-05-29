@@ -1,17 +1,30 @@
-<header class="font-outfit py-4">
-    <nav class="fixed right-10 left-10 ">
-        <div class="flex justify-between">
-            <div>
-                <a href="#"><p class="text-2xl">EN</p></a>
-                <a href="#"><p class="text-2xl">DEN</p></a>
+<header class="font-outfit lg:py-8  sm:py-8">
+    <nav class="fixed md:right-10 md:left-10 right-5 left-5 top-4">
+        <div class="flex justify-between ">
+            <div class="">
+                <a href="#"><p class="md:text-2xl text-xl">EN</p></a>
+                <a href="#"><p class="md:text-2xl text-xl">DEN</p></a>
             </div>
-            <h1 class="text-5xl font-extrabold flex items-center ">Baumeister</h1>
-            <ul class="text-2xl">
+            <h1 class="md:text-5xl md:font-extrabold flex items-center text-4xl font-semibold text-center">Baumeister</h1>
+            <ul class="hidden lg:block lg:text-2xl">
                 <a href="#about"><li>About</li></a>
                 <a href="#services"><li>Services</li></a>
                 <a href="#reference"><li>References</li></a>
                 <a href="../../contact.html"><li>Contact</li></a>
             </ul>
+            <!-- nav hamburger menu -->
+            <!-- <div id="hamburger" class="hidden">
+                <ul class="flex flex-col gap-4">
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Services</li></a>
+                    <a href="#"><li>References</li></a>
+                    <a href="#"><li>Contact</li></a>
+                </ul>
+            </div> -->
+            <div class="lg:hidden flex items-center  sm:w-2/12 md:w-[5rem]" id="menu">
+                <img src="src/assets/images/black-vector.svg" alt="hamburger-icon" class="w-full">
+            </div>
         </div>
     </nav>
 </header>
+
