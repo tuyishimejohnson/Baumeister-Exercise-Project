@@ -19,6 +19,17 @@ module.exports = {
       },
       width: {
         287.5: "1150px",
+        '50%': '50%',
+        '15%': '15%',
+        '30%': '30%',
+        '48%': '48%',
+        '25%': '25%',
+        '65%': '65%',
+        '45%': '45%',
+        '40%': '40%',
+        '55%': '55%',
+        '60%': '60%'
+
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/images/yellow-background-vector.svg')",

@@ -737,12 +737,40 @@ video {
   height: 98rem;
 }
 
+.w-15\%{
+  width: 15%;
+}
+
 .w-2\/3{
   width: 66.666667%;
 }
 
+.w-25\%{
+  width: 25%;
+}
+
 .w-287\.5{
   width: 1150px;
+}
+
+.w-30\%{
+  width: 30%;
+}
+
+.w-48{
+  width: 12rem;
+}
+
+.w-48\%{
+  width: 48%;
+}
+
+.w-50\%{
+  width: 50%;
+}
+
+.w-65\%{
+  width: 65%;
 }
 
 .w-8\/12{
@@ -757,28 +785,8 @@ video {
   width: 13.5rem;
 }
 
-.w-\[15\%\]{
-  width: 15%;
-}
-
-.w-\[25\%\]{
-  width: 25%;
-}
-
-.w-\[30\%\]{
-  width: 30%;
-}
-
 .w-\[3rem\]{
   width: 3rem;
-}
-
-.w-\[48\%\]{
-  width: 48%;
-}
-
-.w-\[50\%\]{
-  width: 50%;
 }
 
 .w-\[65\%\]{
@@ -1020,8 +1028,16 @@ video {
     height: 26rem;
   }
 
-  .sm\:w-\[60\%\]{
+  .sm\:w-60{
+    width: 15rem;
+  }
+
+  .sm\:w-60\%{
     width: 60%;
+  }
+
+  .sm\:w-6{
+    width: 1.5rem;
   }
 
   .sm\:py-8{
@@ -1052,7 +1068,7 @@ video {
     height: 32rem;
   }
 
-  .md\:w-\[55\%\]{
+  .md\:w-55\%{
     width: 55%;
   }
 
@@ -1110,16 +1126,16 @@ video {
     height: 38rem;
   }
 
+  .lg\:w-50\%{
+    width: 50%;
+  }
+
   .lg\:w-8\/12{
     width: 66.666667%;
   }
 
   .lg\:w-\[35\%\]{
     width: 35%;
-  }
-
-  .lg\:w-\[50\%\]{
-    width: 50%;
   }
 
   .lg\:flex-row{
@@ -1164,7 +1180,7 @@ video {
     height: 44rem;
   }
 
-  .xl\:w-\[45\%\]{
+  .xl\:w-45\%{
     width: 45%;
   }
 
@@ -1179,7 +1195,11 @@ video {
     height: 55rem;
   }
 
-  .\32xl\:w-\[40\%\]{
+  .\32xl\:w-40{
+    width: 10rem;
+  }
+
+  .\32xl\:w-40\%{
     width: 40%;
   }
 
