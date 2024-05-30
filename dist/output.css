@@ -689,6 +689,11 @@ video {
   margin-right: auto;
 }
 
+.my-14{
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
@@ -1068,8 +1073,17 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:my-28{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+
   .sm\:mb-0{
     margin-bottom: 0px;
+  }
+
+  .sm\:mt-40{
+    margin-top: 10rem;
   }
 
   .sm\:block{
@@ -1086,6 +1100,10 @@ video {
 
   .sm\:w-60\%{
     width: 60%;
+  }
+
+  .sm\:w-11\/12{
+    width: 91.666667%;
   }
 
   .sm\:max-w-screen-lg{
@@ -1105,6 +1123,11 @@ video {
   .sm\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -1163,6 +1186,11 @@ video {
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:font-extrabold{
