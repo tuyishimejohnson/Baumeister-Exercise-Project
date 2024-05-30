@@ -652,22 +652,6 @@ video {
   top: 55%;
 }
 
-.top-\[10\%\]{
-  top: 10%;
-}
-
-.top-\[20\%\]{
-  top: 20%;
-}
-
-.top-\[50\%\]{
-  top: 50%;
-}
-
-.top-\[55\%\]{
-  top: 55%;
-}
-
 .-z-10{
   z-index: -10;
 }
@@ -765,26 +749,6 @@ video {
   height: 80%;
 }
 
-.h-\[100\%\]{
-  height: 100%;
-}
-
-.h-\[30\%\]{
-  height: 30%;
-}
-
-.h-\[45\%\]{
-  height: 45%;
-}
-
-.h-\[50\%\]{
-  height: 50%;
-}
-
-.h-\[80\%\]{
-  height: 80%;
-}
-
 .h-\[98rem\]{
   height: 98rem;
 }
@@ -793,36 +757,12 @@ video {
   width: 3rem;
 }
 
-.w-15\%{
-  width: 15%;
-}
-
 .w-2\/3{
   width: 66.666667%;
 }
 
-.w-25\%{
-  width: 25%;
-}
-
 .w-287\.5{
   width: 1150px;
-}
-
-.w-30\%{
-  width: 30%;
-}
-
-.w-48{
-  width: 12rem;
-}
-
-.w-48\%{
-  width: 48%;
-}
-
-.w-50\%{
-  width: 50%;
 }
 
 .w-54w{
@@ -831,10 +771,6 @@ video {
 
 .w-6\/12{
   width: 50%;
-}
-
-.w-65\%{
-  width: 65%;
 }
 
 .w-8\/12{
@@ -891,11 +827,6 @@ video {
 }
 
 .-translate-y-50\%{
-  --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-\[-50\%\]{
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -1122,14 +1053,6 @@ video {
     height: 26rem;
   }
 
-  .sm\:w-60{
-    width: 15rem;
-  }
-
-  .sm\:w-60\%{
-    width: 60%;
-  }
-
   .sm\:w-\[60\%\]{
     width: 60%;
   }
@@ -1173,10 +1096,6 @@ video {
 
   .md\:w-20w{
     width: 5rem;
-  }
-
-  .md\:w-55\%{
-    width: 55%;
   }
 
   .md\:w-8\/12{
@@ -1237,10 +1156,6 @@ video {
     height: 38rem;
   }
 
-  .lg\:w-50\%{
-    width: 50%;
-  }
-
   .lg\:w-8\/12{
     width: 66.666667%;
   }
@@ -1295,10 +1210,6 @@ video {
     height: 44rem;
   }
 
-  .xl\:w-45\%{
-    width: 45%;
-  }
-
   .xl\:w-\[45\%\]{
     width: 45%;
   }
@@ -1312,14 +1223,6 @@ video {
 @media (min-width: 1536px){
   .\32xl\:h-55rem{
     height: 55rem;
-  }
-
-  .\32xl\:w-40{
-    width: 10rem;
-  }
-
-  .\32xl\:w-40\%{
-    width: 40%;
   }
 
   .\32xl\:w-\[40\%\]{
