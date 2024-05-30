@@ -660,6 +660,18 @@ video {
   top: 55%;
 }
 
+.bottom-2{
+  bottom: 0.5rem;
+}
+
+.bottom-24{
+  bottom: 6rem;
+}
+
+.bottom-20{
+  bottom: 5rem;
+}
+
 .-z-10{
   z-index: -10;
 }
@@ -1233,18 +1245,6 @@ video {
 @media (min-width: 1024px){
   .lg\:left-24{
     left: 6rem;
-  }
-
-  .lg\:top-56{
-    top: 14rem;
-  }
-
-  .lg\:top-3{
-    top: 0.75rem;
-  }
-
-  .lg\:top-36{
-    top: 9rem;
   }
 
   .lg\:top-40{
