@@ -826,40 +826,7 @@ video {
   width: 100%;
 }
 
-<<<<<<< HEAD
 .max-w-1600{
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-.max-w-\[1600px\]{
-=======
-=======
->>>>>>> 50b6da3 (Chore: Rebase changes from dev)
-<<<<<<< HEAD
-.max-w-1600{
-=======
-.w-2\/3{
-  width: 66.666667%;
-}
-
-.w-4\/5{
-  width: 80%;
-}
-
-.w-3\/5{
-  width: 60%;
-}
-
-=======
->>>>>>> cd70ba4 (Feat: add responsiveness on small screens)
-.max-w-\[1600px\]{
->>>>>>> 0ab192c (Feat: add responsiveness on small screens)
->>>>>>> db44cd1 (Chore: Rebase changes from dev)
-=======
-.max-w-1600{
->>>>>>> e627b69 (Chore: remove spaces on the service section file)
->>>>>>> 727870accf1176b94f7cae246d9221044f46ef98
   max-width: 1600px;
 }
 
@@ -1158,17 +1125,16 @@ video {
     right: 2.5rem;
   }
 
-<<<<<<< HEAD
-  .md\:z-20{
-    z-index: 20;
-=======
   .md\:right-28{
     right: 7rem;
   }
 
+  .md\:z-20{
+    z-index: 20;
+  }
+
   .md\:block{
     display: block;
->>>>>>> 727870accf1176b94f7cae246d9221044f46ef98
   }
 
   .md\:hidden{
