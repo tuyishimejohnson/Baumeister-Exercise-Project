@@ -580,8 +580,8 @@ video {
   bottom: 0px;
 }
 
-.bottom-48{
-  bottom: 12rem;
+.bottom-28{
+  bottom: 7rem;
 }
 
 .left-16{
@@ -594,6 +594,10 @@ video {
 
 .left-20\%{
   left: 20%;
+}
+
+.left-24{
+  left: 6rem;
 }
 
 .left-35\%{
@@ -618,10 +622,6 @@ video {
 
 .right-0{
   right: 0px;
-}
-
-.right-28{
-  right: 7rem;
 }
 
 .right-5{
@@ -660,20 +660,12 @@ video {
   top: 55%;
 }
 
-.bottom-28{
-  bottom: 7rem;
-}
-
-.left-10{
-  left: 2.5rem;
-}
-
-.left-24{
-  left: 6rem;
-}
-
 .-z-10{
   z-index: -10;
+}
+
+.-z-40{
+  z-index: -40;
 }
 
 .z-10{
@@ -694,14 +686,6 @@ video {
 
 .z-50{
   z-index: 50;
-}
-
-.-z-50{
-  z-index: -50;
-}
-
-.-z-40{
-  z-index: -40;
 }
 
 .m-auto{
@@ -794,16 +778,16 @@ video {
   width: 15%;
 }
 
-.w-2\/5{
-  width: 40%;
-}
-
 .w-25\%{
   width: 25%;
 }
 
 .w-287\.5{
   width: 1150px;
+}
+
+.w-3\/5{
+  width: 60%;
 }
 
 .w-30\%{
@@ -847,8 +831,11 @@ video {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .max-w-\[1600px\]{
 =======
+=======
+>>>>>>> 50b6da3 (Chore: Rebase changes from dev)
 <<<<<<< HEAD
 .max-w-1600{
 =======
@@ -864,6 +851,8 @@ video {
   width: 60%;
 }
 
+=======
+>>>>>>> cd70ba4 (Feat: add responsiveness on small screens)
 .max-w-\[1600px\]{
 >>>>>>> 0ab192c (Feat: add responsiveness on small screens)
 >>>>>>> db44cd1 (Chore: Rebase changes from dev)
@@ -918,10 +907,6 @@ video {
 
 .gap-10{
   gap: 2.5rem;
-}
-
-.gap-12{
-  gap: 3rem;
 }
 
 .gap-36{
@@ -1147,16 +1132,16 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:bottom-48{
+    bottom: 12rem;
+  }
+
   .md\:left-10{
     left: 2.5rem;
   }
 
   .md\:right-10{
     right: 2.5rem;
-  }
-
-  .md\:bottom-48{
-    bottom: 12rem;
   }
 
   .md\:right-28{
@@ -1175,6 +1160,10 @@ video {
     height: 32rem;
   }
 
+  .md\:w-2\/5{
+    width: 40%;
+  }
+
   .md\:w-20w{
     width: 5rem;
   }
@@ -1185,10 +1174,6 @@ video {
 
   .md\:w-8\/12{
     width: 66.666667%;
-  }
-
-  .md\:w-2\/5{
-    width: 40%;
   }
 
   .md\:flex-row{
@@ -1240,23 +1225,30 @@ video {
     line-height: 1.75rem;
   }
 
-  .md\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
   .md\:font-extrabold{
     font-weight: 800;
   }
 }
 
 @media (min-width: 1024px){
-  .lg\:left-20{
-    left: 5rem;
+  .lg\:left-24{
+    left: 6rem;
   }
 
-  .lg\:top-44{
-    top: 11rem;
+  .lg\:top-56{
+    top: 14rem;
+  }
+
+  .lg\:top-3{
+    top: 0.75rem;
+  }
+
+  .lg\:top-36{
+    top: 9rem;
+  }
+
+  .lg\:top-40{
+    top: 10rem;
   }
 
   .lg\:block{
