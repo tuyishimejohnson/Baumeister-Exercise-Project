@@ -34,6 +34,9 @@ module.exports = {
         "55%": "55%",
         "60%": "60%",
       },
+      maxWidth: {
+        1600: "1600px",
+      },
       height: {
         "20rem": "20rem",
         "26rem": "26rem",
@@ -70,6 +73,13 @@ module.exports = {
         "55%": "55%",
         "-50%": "-50%",
         392: "98rem",
+      },
+
+      backgroundPosition: {
+        "3/10": "30% 100%",
+      },
+      margin: {
+        "12vh": "12vh",
       },
     },
   },
