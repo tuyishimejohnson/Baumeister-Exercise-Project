@@ -580,8 +580,8 @@ video {
   bottom: 0px;
 }
 
-.bottom-20{
-  bottom: 5rem;
+.bottom-48{
+  bottom: 12rem;
 }
 
 .left-16{
@@ -660,6 +660,18 @@ video {
   top: 55%;
 }
 
+.bottom-28{
+  bottom: 7rem;
+}
+
+.left-10{
+  left: 2.5rem;
+}
+
+.left-24{
+  left: 6rem;
+}
+
 .-z-10{
   z-index: -10;
 }
@@ -682,6 +694,14 @@ video {
 
 .z-50{
   z-index: 50;
+}
+
+.-z-50{
+  z-index: -50;
+}
+
+.-z-40{
+  z-index: -40;
 }
 
 .m-auto{
@@ -826,7 +846,27 @@ video {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .max-w-\[1600px\]{
+=======
+<<<<<<< HEAD
+.max-w-1600{
+=======
+.w-2\/3{
+  width: 66.666667%;
+}
+
+.w-4\/5{
+  width: 80%;
+}
+
+.w-3\/5{
+  width: 60%;
+}
+
+.max-w-\[1600px\]{
+>>>>>>> 0ab192c (Feat: add responsiveness on small screens)
+>>>>>>> db44cd1 (Chore: Rebase changes from dev)
   max-width: 1600px;
 }
 
@@ -900,6 +940,10 @@ video {
   gap: 1.75rem;
 }
 
+.gap-9{
+  gap: 2.25rem;
+}
+
 .gap-y-10{
   row-gap: 2.5rem;
 }
@@ -953,10 +997,6 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.pb-24{
-  padding-bottom: 6rem;
-}
-
 .pb-4{
   padding-bottom: 1rem;
 }
@@ -971,10 +1011,6 @@ video {
 
 .pl-6{
   padding-left: 1.5rem;
-}
-
-.pr-16{
-  padding-right: 4rem;
 }
 
 .pt-48{
@@ -1119,6 +1155,18 @@ video {
     right: 2.5rem;
   }
 
+  .md\:bottom-48{
+    bottom: 12rem;
+  }
+
+  .md\:right-28{
+    right: 7rem;
+  }
+
+  .md\:block{
+    display: block;
+  }
+
   .md\:hidden{
     display: none;
   }
@@ -1139,21 +1187,37 @@ video {
     width: 66.666667%;
   }
 
+  .md\:w-2\/5{
+    width: 40%;
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
 
-  .md\:flex-col{
-    flex-direction: column;
+  .md\:justify-end{
+    justify-content: flex-end;
   }
 
   .md\:justify-between{
     justify-content: space-between;
   }
 
+  .md\:gap-12{
+    gap: 3rem;
+  }
+
   .md\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:pb-24{
+    padding-bottom: 6rem;
+  }
+
+  .md\:pr-16{
+    padding-right: 4rem;
   }
 
   .md\:text-2xl{
@@ -1174,6 +1238,11 @@ video {
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
   }
 
   .md\:font-extrabold{
