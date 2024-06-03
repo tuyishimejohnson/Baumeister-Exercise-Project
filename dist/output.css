@@ -576,10 +576,6 @@ video {
   position: sticky;
 }
 
-.-top-32{
-  top: -8rem;
-}
-
 .bottom-0{
   bottom: 0px;
 }
@@ -618,10 +614,6 @@ video {
 
 .left-50\%{
   left: 50%;
-}
-
-.left-\[37\%\]{
-  left: 37%;
 }
 
 .right-0{
@@ -666,14 +658,6 @@ video {
 
 .top-55\%{
   top: 55%;
-}
-
-.left-56{
-  left: 14rem;
-}
-
-.-top-3{
-  top: -0.75rem;
 }
 
 .-z-10{
@@ -786,10 +770,6 @@ video {
   height: 80%;
 }
 
-.w-1\/5{
-  width: 20%;
-}
-
 .w-12w{
   width: 3rem;
 }
@@ -836,10 +816,6 @@ video {
 
 .w-9\/12{
   width: 75%;
-}
-
-.w-2\/5{
-  width: 40%;
 }
 
 .max-w-1600{
@@ -918,21 +894,6 @@ video {
 
 .gap-y-10{
   row-gap: 2.5rem;
-}
-
-.bg-green-50{
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 253 244 / var(--tw-bg-opacity));
-}
-
-.bg-green-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-hero-pattern{
@@ -1147,10 +1108,6 @@ video {
     position: fixed;
   }
 
-  .md\:absolute{
-    position: absolute;
-  }
-
   .md\:bottom-48{
     bottom: 12rem;
   }
@@ -1171,36 +1128,8 @@ video {
     right: 7rem;
   }
 
-  .md\:top-10{
-    top: 2.5rem;
-  }
-
-  .md\:left-\[37\%\]{
-    left: 37%;
-  }
-
-  .md\:top-0{
-    top: 0px;
-  }
-
   .md\:top-1{
     top: 0.25rem;
-  }
-
-  .md\:left-6{
-    left: 1.5rem;
-  }
-
-  .md\:left-64{
-    left: 16rem;
-  }
-
-  .md\:left-52{
-    left: 13rem;
-  }
-
-  .md\:left-5{
-    left: 1.25rem;
   }
 
   .md\:z-20{
@@ -1233,18 +1162,6 @@ video {
 
   .md\:w-8\/12{
     width: 66.666667%;
-  }
-
-  .md\:w-\[\]{
-    width: ;
-  }
-
-  .md\:w-\[3\]{
-    width: 3;
-  }
-
-  .md\:w-1\/5{
-    width: 20%;
   }
 
   .md\:flex-row{
