@@ -1104,6 +1104,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:fixed{
+    position: fixed;
+  }
+
   .md\:bottom-48{
     bottom: 12rem;
   }
@@ -1112,12 +1116,20 @@ video {
     left: 2.5rem;
   }
 
+  .md\:left-56{
+    left: 14rem;
+  }
+
   .md\:right-10{
     right: 2.5rem;
   }
 
   .md\:right-28{
     right: 7rem;
+  }
+
+  .md\:top-1{
+    top: 0.25rem;
   }
 
   .md\:z-20{
