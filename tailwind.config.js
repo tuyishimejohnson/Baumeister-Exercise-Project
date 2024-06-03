@@ -17,6 +17,7 @@ module.exports = {
         customBlue: "#0F2CCE",
         customPink: "#FF93C8",
         customBlack: "#000000",
+        backgroundWhitish:"#EFECEA" 
       },
       fontSize: {
         "12xl": "3rem",
@@ -72,7 +73,7 @@ module.exports = {
         "50%": "50%",
         "55%": "55%",
         "-50%": "-50%",
-        392: "98rem",
+        392: "86.4rem",
       },
 
       backgroundPosition: {
@@ -80,7 +81,10 @@ module.exports = {
       },
       margin: {
         "12vh": "12vh",
-      },
+      },  
+      lineHeight: {
+        'custom-60': '60.48px',
+      },    
     },
   },
   plugins: [],
