@@ -714,16 +714,16 @@ video {
   margin-bottom: 24rem;
 }
 
+.mt-12vh{
+  margin-top: 12vh;
+}
+
 .mt-20{
   margin-top: 5rem;
 }
 
 .mt-32{
   margin-top: 8rem;
-}
-
-.mt-\[12vh\]{
-  margin-top: 12vh;
 }
 
 .block{
@@ -750,6 +750,10 @@ video {
   height: 30%;
 }
 
+.h-392{
+  height: 98rem;
+}
+
 .h-45\%{
   height: 45%;
 }
@@ -764,10 +768,6 @@ video {
 
 .h-80\%{
   height: 80%;
-}
-
-.h-\[98rem\]{
-  height: 98rem;
 }
 
 .w-12w{
@@ -822,44 +822,11 @@ video {
   width: 75%;
 }
 
-.w-\[65\%\]{
-  width: 65%;
-}
-
 .w-full{
   width: 100%;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-.max-w-\[1600px\]{
-=======
-=======
->>>>>>> 50b6da3 (Chore: Rebase changes from dev)
-<<<<<<< HEAD
 .max-w-1600{
-=======
-.w-2\/3{
-  width: 66.666667%;
-}
-
-.w-4\/5{
-  width: 80%;
-}
-
-.w-3\/5{
-  width: 60%;
-}
-
-=======
->>>>>>> cd70ba4 (Feat: add responsiveness on small screens)
-.max-w-\[1600px\]{
->>>>>>> 0ab192c (Feat: add responsiveness on small screens)
->>>>>>> db44cd1 (Chore: Rebase changes from dev)
-=======
-.max-w-1600{
->>>>>>> e627b69 (Chore: remove spaces on the service section file)
   max-width: 1600px;
 }
 
@@ -943,6 +910,10 @@ video {
 
 .bg-cover{
   background-size: cover;
+}
+
+.bg-3\/10{
+  background-position: 30% 100%;
 }
 
 .bg-no-repeat{
@@ -1076,6 +1047,12 @@ video {
   text-decoration-line: underline;
 }
 
+/* @layer base{
+    *{
+        border: 1px solid red;
+    }
+} */
+
 @media (min-width: 640px){
   .sm\:my-28{
     margin-top: 7rem;
@@ -1150,6 +1127,10 @@ video {
 
   .md\:right-28{
     right: 7rem;
+  }
+
+  .md\:z-20{
+    z-index: 20;
   }
 
   .md\:block{
@@ -1263,6 +1244,10 @@ video {
     height: 38rem;
   }
 
+  .lg\:w-35\%{
+    width: 35%;
+  }
+
   .lg\:w-50\%{
     width: 50%;
   }
@@ -1273,10 +1258,6 @@ video {
 
   .lg\:w-9\/12{
     width: 75%;
-  }
-
-  .lg\:w-\[35\%\]{
-    width: 35%;
   }
 
   .lg\:flex-row{
@@ -1379,4 +1360,3 @@ video {
     line-height: 1;
   }
 }
-
