@@ -1,20 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./dist/output.css">
-    <title>Baumeister</title>    
-</head>
-<script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Baumeister</title>
+  </head>
+  <script>
     const loadComponents = (id, url) => {
-    fetch(url)
+      fetch(url)
         .then((response) => response.text())
         .then((html) => {
-            document.getElementById(id).innerHTML = html;
+          document.getElementById(id).innerHTML = html;
         });
-}
+    };
 
     window.onload = () => {
         loadComponents('header', 'src/sections/header.html');
@@ -27,7 +26,7 @@
     }
 
     </script>
-  <body class="font-outfit">
+  <body class="font-outfit bg-backgroundWhitish">
     <div class="mx-auto max-w-1600">
       <!-- header -->
       <section id="header"></section>
@@ -36,7 +35,7 @@
         <section id="hero"></section>
         <section id="about"></section>
         <section id="sticky-yellow" class="sticky top-0 -z-10"></section>
-        <section id="services"></section>        
+        <section id="services"></section>
         <section id="reference" class=""></section>
         <section id="footer"></section>
       </div>
