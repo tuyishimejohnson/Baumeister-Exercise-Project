@@ -672,6 +672,30 @@ video {
   top: 7%;
 }
 
+.left-1\/2{
+  left: 50%;
+}
+
+.left-52{
+  left: 13rem;
+}
+
+.left-56{
+  left: 14rem;
+}
+
+.left-60{
+  left: 15rem;
+}
+
+.top-5{
+  top: 1.25rem;
+}
+
+.top-2{
+  top: 0.5rem;
+}
+
 .-z-10{
   z-index: -10;
 }
@@ -787,6 +811,38 @@ video {
 >>>>>>> 56dc9ac9c33f71a2bdf625c833301c4ccad0a5f3
 }
 
+.h-52{
+  height: 13rem;
+}
+
+.h-5{
+  height: 1.25rem;
+}
+
+.h-60{
+  height: 15rem;
+}
+
+.h-44{
+  height: 11rem;
+}
+
+.h-24{
+  height: 6rem;
+}
+
+.h-36{
+  height: 9rem;
+}
+
+.h-2{
+  height: 0.5rem;
+}
+
+.h-20{
+  height: 5rem;
+}
+
 .w-12w{
   width: 3rem;
 }
@@ -838,6 +894,34 @@ video {
 <<<<<<< HEAD
 .w-full{
   width: 100%;
+}
+
+.w-44{
+  width: 11rem;
+}
+
+.w-96{
+  width: 24rem;
+}
+
+.w-1\/2{
+  width: 50%;
+}
+
+.w-2\/3{
+  width: 66.666667%;
+}
+
+.w-2\/5{
+  width: 40%;
+}
+
+.w-3{
+  width: 0.75rem;
+}
+
+.w-3\/4{
+  width: 75%;
 }
 
 .max-w-1600{
@@ -1043,6 +1127,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1159,12 +1248,27 @@ video {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   .md\:top-1{
     top: 0.25rem;
   }
 
 >>>>>>> 56dc9ac9c33f71a2bdf625c833301c4ccad0a5f3
+=======
+  .md\:top-0{
+    top: 0px;
+  }
+
+  .md\:left-40{
+    left: 10rem;
+  }
+
+  .md\:left-44{
+    left: 11rem;
+  }
+
+>>>>>>> e3694df (Feat: Add shape on the privacy page and add changes on navigation.)
   .md\:z-20{
     z-index: 20;
   }
@@ -1195,6 +1299,54 @@ video {
 
   .md\:w-8\/12{
     width: 66.666667%;
+  }
+
+  .md\:w-3\/5{
+    width: 60%;
+  }
+
+  .md\:w-96{
+    width: 24rem;
+  }
+
+  .md\:w-9{
+    width: 2.25rem;
+  }
+
+  .md\:w-7\/12{
+    width: 58.333333%;
+  }
+
+  .md\:w-5\/12{
+    width: 41.666667%;
+  }
+
+  .md\:w-\[7\/12\]{
+    width: 7/12;
+  }
+
+  .md\:w-\[\]{
+    width: ;
+  }
+
+  .md\:w-\[70\]{
+    width: 70;
+  }
+
+  .md\:w-\[70\%\]{
+    width: 70%;
+  }
+
+  .md\:w-\[50\%\]{
+    width: 50%;
+  }
+
+  .md\:w-1{
+    width: 0.25rem;
+  }
+
+  .md\:w-1\/2{
+    width: 50%;
   }
 
   .md\:flex-row{
@@ -1254,6 +1406,29 @@ video {
     line-height: 1.75rem;
   }
 
+<<<<<<< HEAD
+  .md\:font-semibold{
+    font-weight: 600;
+=======
+  .md\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:font-extrabold{
+    font-weight: 800;
+>>>>>>> e3694df (Feat: Add shape on the privacy page and add changes on navigation.)
+  }
+
+  .md\:font-medium{
+    font-weight: 500;
+  }
+
   .md\:font-semibold{
     font-weight: 600;
   }
@@ -1302,6 +1477,18 @@ video {
 
   .lg\:flex-row{
     flex-direction: row;
+  }
+
+  .lg\:flex-col{
+    flex-direction: column;
+  }
+
+  .lg\:items-end{
+    align-items: flex-end;
+  }
+
+  .lg\:justify-end{
+    justify-content: flex-end;
   }
 
   .lg\:justify-around{
