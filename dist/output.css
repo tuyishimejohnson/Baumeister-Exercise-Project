@@ -690,6 +690,10 @@ video {
   top: 7%;
 }
 
+.top-6{
+  top: 1.5rem;
+}
+
 .top-58\%{
   top: 58%;
 }
@@ -772,8 +776,8 @@ video {
   display: none;
 }
 
-.h-20rem{
-  height: 20rem;
+.h-15rem{
+  height: 15rem;
 }
 
 <<<<<<< HEAD
@@ -1000,6 +1004,11 @@ video {
   padding-right: 1.25rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-16{
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1213,8 +1222,17 @@ video {
     height: 32rem;
   }
 
+<<<<<<< HEAD
   .md\:w-2\/5{
     width: 40%;
+=======
+  .md\:h-60rem{
+    height: 60rem;
+  }
+
+  .md\:h-55rem{
+    height: 55rem;
+>>>>>>> 7d562b4 (chore: hero shapes positioning)
   }
 
   .md\:w-20w{
