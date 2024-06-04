@@ -89,6 +89,7 @@ module.exports = {
         "61%": "61%",
         "73%": "73%",
         "-50%": "-50%",
+        392: "86.4rem",
       },
 
       backgroundPosition: {
