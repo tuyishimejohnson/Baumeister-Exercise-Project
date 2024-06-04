@@ -588,8 +588,8 @@ video {
   left: 13%;
 }
 
-.left-14{
-  left: 3.5rem;
+.left-16{
+  left: 4rem;
 }
 
 .left-21\%{
@@ -672,30 +672,6 @@ video {
   top: 7%;
 }
 
-.left-1\/2{
-  left: 50%;
-}
-
-.left-52{
-  left: 13rem;
-}
-
-.left-56{
-  left: 14rem;
-}
-
-.left-60{
-  left: 15rem;
-}
-
-.top-5{
-  top: 1.25rem;
-}
-
-.top-2{
-  top: 0.5rem;
-}
-
 .-z-10{
   z-index: -10;
 }
@@ -746,10 +722,6 @@ video {
   margin-bottom: 7rem;
 }
 
-.mb-96{
-  margin-bottom: 24rem;
-}
-
 .mt-12vh{
   margin-top: 12vh;
 }
@@ -774,73 +746,12 @@ video {
   display: none;
 }
 
-<<<<<<< HEAD
-.h-100\%{
-  height: 100%;
-}
-
-.h-20rem{
-  height: 20rem;
-}
-
-.h-30\%{
-  height: 30%;
+.h-15rem{
+  height: 15rem;
 }
 
 .h-392{
-  height: 98rem;
-}
-
-.h-45\%{
-  height: 45%;
-}
-
-.h-50\%{
-  height: 50%;
-}
-
-.h-80{
-  height: 20rem;
-}
-
-.h-80\%{
-  height: 80%;
-=======
-.h-15rem{
-  height: 15rem;
->>>>>>> 56dc9ac9c33f71a2bdf625c833301c4ccad0a5f3
-}
-
-.h-52{
-  height: 13rem;
-}
-
-.h-5{
-  height: 1.25rem;
-}
-
-.h-60{
-  height: 15rem;
-}
-
-.h-44{
-  height: 11rem;
-}
-
-.h-24{
-  height: 6rem;
-}
-
-.h-36{
-  height: 9rem;
-}
-
-.h-2{
-  height: 0.5rem;
-}
-
-.h-20{
-  height: 5rem;
+  height: 86.4rem;
 }
 
 .w-12w{
@@ -879,6 +790,10 @@ video {
   width: 48%;
 }
 
+.w-54w{
+  width: 13.5rem;
+}
+
 .w-6\/12{
   width: 50%;
 }
@@ -891,45 +806,6 @@ video {
   width: 75%;
 }
 
-<<<<<<< HEAD
-.w-full{
-  width: 100%;
-}
-
-.w-44{
-  width: 11rem;
-}
-
-.w-96{
-  width: 24rem;
-}
-
-.w-1\/2{
-  width: 50%;
-}
-
-.w-2\/3{
-  width: 66.666667%;
-}
-
-.w-2\/5{
-  width: 40%;
-}
-
-.w-3{
-  width: 0.75rem;
-}
-
-.w-3\/4{
-  width: 75%;
-}
-
-.max-w-1600{
-  max-width: 1600px;
-}
-
-=======
->>>>>>> 56dc9ac9c33f71a2bdf625c833301c4ccad0a5f3
 .max-w-full{
   max-width: 100%;
 }
@@ -1088,10 +964,6 @@ video {
   padding-left: 1.5rem;
 }
 
-.pt-4{
-  padding-top: 1rem;
-}
-
 .pt-48{
   padding-top: 12rem;
 }
@@ -1122,14 +994,14 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-bold{
@@ -1161,12 +1033,6 @@ video {
 .underline{
   text-decoration-line: underline;
 }
-
-/* @layer base{
-    *{
-        border: 1px solid red;
-    }
-} */
 
 @media (min-width: 640px){
   .sm\:my-28{
@@ -1235,6 +1101,10 @@ video {
     left: 2.5rem;
   }
 
+  .md\:left-44{
+    left: 11rem;
+  }
+
   .md\:left-56{
     left: 14rem;
   }
@@ -1247,28 +1117,14 @@ video {
     right: 7rem;
   }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  .md\:top-1{
-    top: 0.25rem;
-  }
-
->>>>>>> 56dc9ac9c33f71a2bdf625c833301c4ccad0a5f3
-=======
   .md\:top-0{
     top: 0px;
   }
 
-  .md\:left-40{
-    left: 10rem;
+  .md\:top-1{
+    top: 0.25rem;
   }
 
-  .md\:left-44{
-    left: 11rem;
-  }
-
->>>>>>> e3694df (Feat: Add shape on the privacy page and add changes on navigation.)
   .md\:z-20{
     z-index: 20;
   }
@@ -1285,6 +1141,10 @@ video {
     height: 32rem;
   }
 
+  .md\:w-1\/2{
+    width: 50%;
+  }
+
   .md\:w-2\/5{
     width: 40%;
   }
@@ -1299,54 +1159,6 @@ video {
 
   .md\:w-8\/12{
     width: 66.666667%;
-  }
-
-  .md\:w-3\/5{
-    width: 60%;
-  }
-
-  .md\:w-96{
-    width: 24rem;
-  }
-
-  .md\:w-9{
-    width: 2.25rem;
-  }
-
-  .md\:w-7\/12{
-    width: 58.333333%;
-  }
-
-  .md\:w-5\/12{
-    width: 41.666667%;
-  }
-
-  .md\:w-\[7\/12\]{
-    width: 7/12;
-  }
-
-  .md\:w-\[\]{
-    width: ;
-  }
-
-  .md\:w-\[70\]{
-    width: 70;
-  }
-
-  .md\:w-\[70\%\]{
-    width: 70%;
-  }
-
-  .md\:w-\[50\%\]{
-    width: 50%;
-  }
-
-  .md\:w-1{
-    width: 0.25rem;
-  }
-
-  .md\:w-1\/2{
-    width: 50%;
   }
 
   .md\:flex-row{
@@ -1382,10 +1194,6 @@ video {
     padding-right: 4rem;
   }
 
-  .md\:pt-0{
-    padding-top: 0px;
-  }
-
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1401,32 +1209,14 @@ video {
     line-height: 1;
   }
 
-  .md\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-<<<<<<< HEAD
-  .md\:font-semibold{
-    font-weight: 600;
-=======
-  .md\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
   .md\:text-6xl{
     font-size: 3.75rem;
     line-height: 1;
   }
 
-  .md\:font-extrabold{
-    font-weight: 800;
->>>>>>> e3694df (Feat: Add shape on the privacy page and add changes on navigation.)
-  }
-
-  .md\:font-medium{
-    font-weight: 500;
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .md\:font-semibold{
@@ -1485,10 +1275,6 @@ video {
 
   .lg\:items-end{
     align-items: flex-end;
-  }
-
-  .lg\:justify-end{
-    justify-content: flex-end;
   }
 
   .lg\:justify-around{
@@ -1586,12 +1372,8 @@ video {
     font-size: 3rem;
     line-height: 1;
   }
-<<<<<<< HEAD
-}
-=======
 }
 
 
 
 
->>>>>>> 56dc9ac9c33f71a2bdf625c833301c4ccad0a5f3
