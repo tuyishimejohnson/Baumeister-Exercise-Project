@@ -794,10 +794,6 @@ video {
   width: 13.5rem;
 }
 
-.w-6\/12{
-  width: 50%;
-}
-
 .w-65\%{
   width: 65%;
 }
@@ -1048,10 +1044,6 @@ video {
     margin-top: 14rem;
   }
 
-  .sm\:block{
-    display: block;
-  }
-
   .sm\:h-26rem{
     height: 26rem;
   }
@@ -1298,13 +1290,12 @@ video {
     padding-bottom: 0px;
   }
 
-  .lg\:py-8{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
   .lg\:pb-0{
     padding-bottom: 0px;
+  }
+
+  .lg\:pb-40{
+    padding-bottom: 10rem;
   }
 
   .lg\:pl-0{
