@@ -7,13 +7,21 @@
     <title>Baumeister</title>
   </head>
   <script>
+
     const loadComponents = (id, url) => {
       fetch(url)
         .then((response) => response.text())
         .then((html) => {
           document.getElementById(id).innerHTML = html;
+          const menu = document.getElementById("menu");
+          const links = document.getElementById("links");
+                console.log(menu)
+                menu.addEventListener("click", () => {
+                  links.classList.toggle("hamburger-menu")
+    })
         });
     };
+
 
     window.onload = () => {
         loadComponents('header', 'src/sections/header.html');
@@ -24,6 +32,10 @@
         loadComponents("footer", 'src/sections/footer.html');
         loadComponents("hero", 'src/sections/hero.html');
     }
+
+
+  
+
 
     </script>
   <body class="font-outfit bg-backgroundWhitish">

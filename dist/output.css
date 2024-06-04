@@ -672,24 +672,6 @@ video {
   top: 50%;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.top-58\%{
-  top: 58%;
-}
-
-.top-7{
-  top: 1.75rem;
-}
-
-.top-7\%{
-  top: 7%;
-}
-
-=======
->>>>>>> 4d8546d5bb54ae65ccd73b3aaeeb049209dffa26
-=======
->>>>>>> b063e0f6c412d5e60793d86938c520482d4109c3
 .-z-10{
   z-index: -10;
 }
@@ -708,6 +690,10 @@ video {
 
 .z-30{
   z-index: 30;
+}
+
+.z-40{
+  z-index: 40;
 }
 
 .z-50{
@@ -760,23 +746,16 @@ video {
   display: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.h-15rem{
-  height: 15rem;
-=======
-=======
->>>>>>> b063e0f6c412d5e60793d86938c520482d4109c3
 .h-26rem{
   height: 26rem;
 }
 
 .h-392{
   height: 86.4rem;
-<<<<<<< HEAD
->>>>>>> 4d8546d5bb54ae65ccd73b3aaeeb049209dffa26
-=======
->>>>>>> b063e0f6c412d5e60793d86938c520482d4109c3
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .w-12w{
@@ -791,46 +770,22 @@ video {
   width: 60%;
 }
 
-<<<<<<< HEAD
 .w-331{
   width: 20.6875rem;
 }
 
-.w-35\%{
-  width: 35%;
-}
-
-.w-47\%{
-  width: 47%;
-}
-
-.w-48{
-  width: 12rem;
-}
-
-.w-48\%{
-  width: 48%;
-=======
 .w-43\%{
   width: 43%;
->>>>>>> 4d8546d5bb54ae65ccd73b3aaeeb049209dffa26
 }
 
 .w-54w{
   width: 13.5rem;
 }
 
-<<<<<<< HEAD
-=======
 .w-55\%{
   width: 55%;
 }
 
-.w-6\/12{
-  width: 50%;
-}
-
->>>>>>> 4d8546d5bb54ae65ccd73b3aaeeb049209dffa26
 .w-65\%{
   width: 65%;
 }
@@ -889,12 +844,20 @@ video {
   justify-content: flex-end;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-14{
+  gap: 3.5rem;
 }
 
 .gap-36{
@@ -1010,6 +973,10 @@ video {
   padding-left: 1.5rem;
 }
 
+.pt-10{
+  padding-top: 2.5rem;
+}
+
 .pt-20{
   padding-top: 5rem;
 }
@@ -1024,6 +991,10 @@ video {
 
 .pt-72{
   padding-top: 18rem;
+}
+
+.pt-14{
+  padding-top: 3.5rem;
 }
 
 .text-center{
@@ -1084,8 +1055,17 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .underline{
   text-decoration-line: underline;
+}
+
+.hamburger-menu {
+  display: none;
 }
 
 @media (min-width: 640px){
@@ -1102,17 +1082,10 @@ video {
     margin-top: 14rem;
   }
 
-<<<<<<< HEAD
-=======
-  .sm\:block{
-    display: block;
-  }
-
   .sm\:inline-block{
     display: inline-block;
   }
 
->>>>>>> 4d8546d5bb54ae65ccd73b3aaeeb049209dffa26
   .sm\:h-26rem{
     height: 26rem;
   }
@@ -1242,6 +1215,10 @@ video {
     gap: 3rem;
   }
 
+  .md\:gap-20{
+    gap: 5rem;
+  }
+
   .md\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1264,6 +1241,10 @@ video {
     padding-right: 4rem;
   }
 
+  .md\:pt-16{
+    padding-top: 4rem;
+  }
+
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1276,6 +1257,11 @@ video {
 
   .md\:text-5xl{
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
     line-height: 1;
   }
 
@@ -1529,7 +1515,5 @@ video {
     line-height: 1;
   }
 }
-
-
 
 
