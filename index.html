@@ -1,56 +1,70 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./dist/output.css" />
-    <title>Baumeister</title>
-  </head>
-  <script>
 
-    const loadComponents = (id, url) => {
-      fetch(url)
-        .then((response) => response.text())
-        .then((html) => {
-          document.getElementById(id).innerHTML = html;
-          const menu = document.getElementById("menu");
-          const links = document.getElementById("links");
-                console.log(menu)
-                menu.addEventListener("click", () => {
-                  links.classList.toggle("hamburger-menu")
-    })
-        });
-    };
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./dist/output.css" />
+  <title>Baumeister</title>
+</head>
+<script>
 
+  const loadComponents = (id, url) => {
+    fetch(url)
+      .then((response) => response.text())
+      .then((html) => {
+        document.getElementById(id).innerHTML = html;
+        const menu = document.getElementById("menu");
+        const links = document.getElementById("links");
+        const menuIcon = document.querySelector(".open-icon")
+        const close = document.querySelector('.close-icon')
+        const iconRemove = document.querySelector(".menu-remove")
 
-    window.onload = () => {
-        loadComponents('header', 'src/sections/header.html');
-        loadComponents('about', 'src/sections/about.html');
-        loadComponents("services", 'src/sections/services.html');       
-        loadComponents('sticky-yellow', 'src/sections/sticky-yellow.html');
-        loadComponents('reference', 'src/sections/reference.html');
-        loadComponents("footer", 'src/sections/footer.html');
-        loadComponents("hero", 'src/sections/hero.html');
-    }
+        menu.addEventListener("click", () => {
 
-
-  
+          if (menuIcon.style.display !== "none") {
+            menuIcon.style.display = "none";
+            close.style.display = "block";
+          } else {
+            menuIcon.style.display = "block";
+            close.style.display = "none";
+          }
+          links.classList.toggle("hamburger-menu")
+        })
+      });
+  };
 
 
-    </script>
-  <body class="font-outfit bg-backgroundWhitish">
-    <div class="mx-auto max-w-1600">
-      <!-- header -->
-      <section id="header"></section>
-      <!-- sections -->
-      <div class="mt-12vh">
-        <section id="hero"></section>
-        <section id="about"></section>
-        <section id="sticky-yellow" class="sticky top-0 -z-10"></section>
-        <section id="services"></section>
-        <section id="reference" class=""></section>
-        <section id="footer"></section>
-      </div>
+  window.onload = () => {
+    loadComponents('header', 'src/sections/header.html');
+    loadComponents('about', 'src/sections/about.html');
+    loadComponents("services", 'src/sections/services.html');
+    loadComponents('sticky-yellow', 'src/sections/sticky-yellow.html');
+    loadComponents('reference', 'src/sections/reference.html');
+    loadComponents("footer", 'src/sections/footer.html');
+    loadComponents("hero", 'src/sections/hero.html');
+  }
+
+
+
+
+
+</script>
+
+<body class="font-outfit bg-backgroundWhitish">
+  <div class="mx-auto max-w-1600">
+    <!-- header -->
+    <section id="header"></section>
+    <!-- sections -->
+    <div class="mt-12vh">
+      <section id="hero"></section>
+      <section id="about"></section>
+      <section id="sticky-yellow" class="sticky top-0 -z-10"></section>
+      <section id="services"></section>
+      <section id="reference" class=""></section>
+      <section id="footer"></section>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

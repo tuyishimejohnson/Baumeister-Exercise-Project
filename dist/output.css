@@ -754,10 +754,6 @@ video {
   height: 86.4rem;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .w-12w{
   width: 3rem;
 }
@@ -973,8 +969,8 @@ video {
   padding-left: 1.5rem;
 }
 
-.pt-10{
-  padding-top: 2.5rem;
+.pt-14{
+  padding-top: 3.5rem;
 }
 
 .pt-20{
@@ -991,10 +987,6 @@ video {
 
 .pt-72{
   padding-top: 18rem;
-}
-
-.pt-14{
-  padding-top: 3.5rem;
 }
 
 .text-center{
@@ -1055,16 +1047,19 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-black{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .underline{
   text-decoration-line: underline;
 }
 
 .hamburger-menu {
+  display: none;
+}
+
+.open-icon {
+  display: block;
+}
+
+.close-icon {
   display: none;
 }
 
@@ -1439,6 +1434,11 @@ video {
   .lg\:py-0{
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .lg\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .lg\:pb-0{

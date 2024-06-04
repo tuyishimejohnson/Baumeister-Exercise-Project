@@ -8,5 +8,12 @@
 .hamburger-menu {
     display: none;
 }
+.open-icon {
+    display: block;
+}
+
+.close-icon {
+    display: none;
+}
 
 
