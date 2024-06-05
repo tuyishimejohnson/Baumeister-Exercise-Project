@@ -16,17 +16,23 @@
           const links = document.getElementById("links");
           const menuIcon = document.querySelector(".open-icon");
           const close = document.querySelector(".close-icon");
+          const heroPadding = document.querySelector(".hero-padding")
+          console.log(heroPadding)
           const iconRemove = document.querySelector(".menu-remove");
 
           menu.addEventListener("click", () => {
             if (menuIcon.style.display !== "none") {
               menuIcon.style.display = "none";
               close.style.display = "block";
+              heroPadding.style.cssText = "margin-top: 20rem;"
             } else {
               menuIcon.style.display = "block";
               close.style.display = "none";
+              heroPadding.style.cssText = "margin-top: 0;"
             }
+          
             links.classList.toggle("hamburger-menu");
+            
           });
         });
     };
