@@ -1,49 +1,46 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./dist/output.css" />
     <title>Baumeister</title>
-</head>
-<script>
+  </head>
+  <script>
     const loadComponents = (id, url) => {
-        fetch(url)
-            .then((response) => response.text())
-            .then((html) => {
-                document.getElementById(id).innerHTML = html;
-                const menu = document.getElementById("menu");
-        const links = document.getElementById("links");
-        const menuIcon = document.querySelector(".open-icon")
-        const close = document.querySelector('.close-icon')
-        const iconRemove = document.querySelector(".menu-remove")
+      fetch(url)
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById(id).innerHTML = html;
+          const menu = document.getElementById("menu");
+          const links = document.getElementById("links");
+          const menuIcon = document.querySelector(".open-icon");
+          const close = document.querySelector(".close-icon");
+          const iconRemove = document.querySelector(".menu-remove");
 
-        menu.addEventListener("click", () => {
-
-          if (menuIcon.style.display !== "none") {
-            menuIcon.style.display = "none";
-            close.style.display = "block";
-          } else {
-            menuIcon.style.display = "block";
-            close.style.display = "none";
-          }
-          links.classList.toggle("hamburger-menu")
-        })
-            });
+          menu.addEventListener("click", () => {
+            if (menuIcon.style.display !== "none") {
+              menuIcon.style.display = "none";
+              close.style.display = "block";
+            } else {
+              menuIcon.style.display = "block";
+              close.style.display = "none";
+            }
+            links.classList.toggle("hamburger-menu");
+          });
+        });
     };
 
     window.onload = () => {
-        loadComponents("header", "src/sections/header.html");
-        loadComponents("data-privacy", "src/sections/data-privacy.html");
-        loadComponents("footer", 'src/sections/footer.html');
+      loadComponents("header", "src/sections/header.html");
+      loadComponents("data-privacy", "src/sections/data-privacy.html");
+      loadComponents("footer", "src/sections/footer.html");
     };
-</script>
+  </script>
 
-<body class="font-outfit text-customGreen bg-backgroundWhitish">
+  <body class="bg-backgroundWhitish font-outfit text-customGreen">
     <section id="header" class="text-green"></section>
     <section id="data-privacy"></section>
     <section id="footer" class="text-green"></section>
-</body>
-
+  </body>
 </html>

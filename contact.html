@@ -1,38 +1,46 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Baumeister</title>
+  </head>
+  <script>
+    const loadComponents = (id, url) => {
+      fetch(url)
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById(id).innerHTML = html;
+          const menu = document.getElementById("menu");
+          const links = document.getElementById("links");
+          const menuIcon = document.querySelector(".open-icon");
+          const close = document.querySelector(".green-close-icon");
+          const iconRemove = document.querySelector(".menu-remove");
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/dist/output.css">
-  <title>Baumeister</title>
-</head>
-<script>
-  const loadComponents = (id, url) => {
-    fetch(url)
-      .then((response) => response.text())
-      .then((html) => {
-        document.getElementById(id).innerHTML = html;
-        const menu = document.getElementById("menu");
-        const links = document.getElementById("links");
-        menu.addEventListener("click", () => {
-          links.classList.toggle("hamburger-menu")
-          links.classList.toggle("icon-remove")
-        })
-      });
-  };
+          menu.addEventListener("click", () => {
+            if (menuIcon.style.display !== "none") {
+              menuIcon.style.display = "none";
+              close.style.display = "block";
+            } else {
+              menuIcon.style.display = "block";
+              close.style.display = "none";
+            }
+            links.classList.toggle("hamburger-menu");
+          });
+        });
+    };
 
-  window.onload = () => {
-    loadComponents("header", "src/sections/contact-header.html");
-    loadComponents("contact", "src/sections/contact.html");
-    loadComponents("footer", 'src/sections/footer.html');
-  };
-</script>
+    window.onload = () => {
+      loadComponents("header", "src/sections/contact-header.html");
+      loadComponents("contact", "src/sections/contact.html");
+      loadComponents("footer", "src/sections/footer.html");
+    };
+  </script>
 
-<body class="bg-backgroundWhitish">
-  <section id="header" class="text-customGreen"></section>
-  <section id="contact"></section>
-  <section id="footer" class="text-customGreen pt-20"></section>
-</body>
-
+  <body class="bg-backgroundWhitish">
+    <section id="header" class="text-customGreen"></section>
+    <section id="contact"></section>
+    <section id="footer" class="pt-20 text-customGreen"></section>
+  </body>
 </html>
