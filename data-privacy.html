@@ -13,6 +13,23 @@
             .then((response) => response.text())
             .then((html) => {
                 document.getElementById(id).innerHTML = html;
+                const menu = document.getElementById("menu");
+        const links = document.getElementById("links");
+        const menuIcon = document.querySelector(".open-icon")
+        const close = document.querySelector('.close-icon')
+        const iconRemove = document.querySelector(".menu-remove")
+
+        menu.addEventListener("click", () => {
+
+          if (menuIcon.style.display !== "none") {
+            menuIcon.style.display = "none";
+            close.style.display = "block";
+          } else {
+            menuIcon.style.display = "block";
+            close.style.display = "none";
+          }
+          links.classList.toggle("hamburger-menu")
+        })
             });
     };
 

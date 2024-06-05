@@ -13,6 +13,12 @@
       .then((response) => response.text())
       .then((html) => {
         document.getElementById(id).innerHTML = html;
+        const menu = document.getElementById("menu");
+        const links = document.getElementById("links");
+        menu.addEventListener("click", () => {
+          links.classList.toggle("hamburger-menu")
+          links.classList.toggle("icon-remove")
+        })
       });
   };
 
@@ -26,7 +32,7 @@
 <body class="bg-backgroundWhitish">
   <section id="header" class="text-customGreen"></section>
   <section id="contact"></section>
-  <section id="footer" class="text-customGreen"></section>
+  <section id="footer" class="text-customGreen pt-20"></section>
 </body>
 
 </html>
