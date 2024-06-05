@@ -1063,10 +1063,6 @@ video {
   display: none;
 }
 
-/* .hero-padding {
-    margin-top: 20rem;
-} */
-
 @media (min-width: 640px){
   .sm\:my-28{
     margin-top: 7rem;
@@ -1514,6 +1510,3 @@ video {
     line-height: 1;
   }
 }
-
-
-
