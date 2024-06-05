@@ -672,21 +672,6 @@ video {
   top: 50%;
 }
 
-<<<<<<< HEAD
-.top-58\%{
-  top: 58%;
-}
-
-.top-7{
-  top: 1.75rem;
-}
-
-.top-7\%{
-  top: 7%;
-}
-
-=======
->>>>>>> 4b19a02c52346a1ee9dbb25cee12df67bce17067
 .-z-10{
   z-index: -10;
 }
@@ -761,17 +746,12 @@ video {
   display: none;
 }
 
-<<<<<<< HEAD
-.h-15rem{
-  height: 15rem;
-=======
 .h-26rem{
   height: 26rem;
 }
 
 .h-392{
   height: 86.4rem;
->>>>>>> 4b19a02c52346a1ee9dbb25cee12df67bce17067
 }
 
 .w-12w{
@@ -798,21 +778,8 @@ video {
   width: 13.5rem;
 }
 
-<<<<<<< HEAD
-.w-48\%{
-  width: 48%;
-}
-
-.w-54w{
-  width: 13.5rem;
-}
-
-.w-6\/12{
-  width: 50%;
-=======
 .w-55\%{
   width: 55%;
->>>>>>> 4b19a02c52346a1ee9dbb25cee12df67bce17067
 }
 
 .w-65\%{
@@ -1002,8 +969,6 @@ video {
   padding-left: 1.5rem;
 }
 
-<<<<<<< HEAD
-=======
 .pt-14{
   padding-top: 3.5rem;
 }
@@ -1016,7 +981,6 @@ video {
   padding-top: 6rem;
 }
 
->>>>>>> 4b19a02c52346a1ee9dbb25cee12df67bce17067
 .pt-48{
   padding-top: 12rem;
 }
@@ -1087,8 +1051,6 @@ video {
   text-decoration-line: underline;
 }
 
-<<<<<<< HEAD
-=======
 .hamburger-menu {
   display: none;
 }
@@ -1101,7 +1063,6 @@ video {
   display: none;
 }
 
->>>>>>> 4b19a02c52346a1ee9dbb25cee12df67bce17067
 @media (min-width: 640px){
   .sm\:my-28{
     margin-top: 7rem;
@@ -1213,10 +1174,6 @@ video {
     width: 50%;
   }
 
-  .md\:w-1\/2{
-    width: 50%;
-  }
-
   .md\:w-2\/5{
     width: 40%;
   }
@@ -1233,13 +1190,10 @@ video {
     width: 66.666667%;
   }
 
-<<<<<<< HEAD
-=======
   .md\:w-full{
     width: 100%;
   }
 
->>>>>>> 4b19a02c52346a1ee9dbb25cee12df67bce17067
   .md\:flex-row{
     flex-direction: row;
   }
@@ -1265,11 +1219,6 @@ video {
     padding-right: 2.5rem;
   }
 
-  .md\:py-24{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
   .md\:pb-24{
     padding-bottom: 6rem;
   }
@@ -1282,13 +1231,10 @@ video {
     padding-right: 4rem;
   }
 
-<<<<<<< HEAD
-=======
   .md\:pt-16{
     padding-top: 4rem;
   }
 
->>>>>>> 4b19a02c52346a1ee9dbb25cee12df67bce17067
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1566,8 +1512,3 @@ video {
 }
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 4b19a02c52346a1ee9dbb25cee12df67bce17067
