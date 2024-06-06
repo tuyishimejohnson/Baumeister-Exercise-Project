@@ -1486,10 +1486,6 @@ video {
     height: 44rem;
   }
 
-  .xl\:w-35\%{
-    width: 35%;
-  }
-
   .xl\:w-489{
     width: 489px;
   }
@@ -1503,10 +1499,6 @@ video {
 @media (min-width: 1536px){
   .\32xl\:h-55rem{
     height: 55rem;
-  }
-
-  .\32xl\:w-35\%{
-    width: 35%;
   }
 
   .\32xl\:w-489{

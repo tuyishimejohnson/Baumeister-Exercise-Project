@@ -6,47 +6,7 @@
     <link rel="stylesheet" href="./dist/output.css" />
     <title>Baumeister</title>
   </head>
-  <script>
-    const loadComponents = (id, url) => {
-      fetch(url)
-        .then((response) => response.text())
-        .then((html) => {
-          document.getElementById(id).innerHTML = html;
-          const menu = document.getElementById("menu");
-          const links = document.getElementById("links");
-          const menuIcon = document.querySelector(".open-icon");
-          const close = document.querySelector(".close-icon");
-          const heroPadding = document.querySelector(".hero-padding");
-          const iconRemove = document.querySelector(".menu-remove");
-
-          menu.addEventListener("click", () => {
-            if (menuIcon.style.display !== "none") {
-              menuIcon.style.display = "none";
-              close.style.display = "block";
-              heroPadding.style.cssText = "margin-top: 20rem;"  
-            } else {
-              menuIcon.style.display = "block";
-              close.style.display = "none";
-              heroPadding.style.cssText = "margin-top: 0;"
-            }
-
-            links.classList.toggle("hamburger-menu");
-            
-          });
-        });
-    };
-
-    window.onload = () => {
-      loadComponents("header", "src/sections/header.html");
-      loadComponents("about", "src/sections/about.html");
-      loadComponents("services", "src/sections/services.html");
-      loadComponents("sticky-yellow", "src/sections/sticky-yellow.html");
-      loadComponents("reference", "src/sections/reference.html");
-      loadComponents("footer", "src/sections/footer.html");
-      loadComponents("hero", "src/sections/hero.html");
-    };
-  </script>
-
+ 
   <body class="bg-backgroundWhitish font-outfit">
     <div class="max-w-1600 mx-auto">
       <!-- header -->
@@ -66,3 +26,46 @@
     </div>
   </body>
 </html>
+<script>
+  const loadComponents = (id, url) => {
+    fetch(url)
+      .then((response) => response.text())
+      .then((html) => {
+        document.getElementById(id).innerHTML = html;
+        const menu = document.getElementById("menu");
+        const links = document.getElementById("links");
+        const menuIcon = document.querySelector(".open-icon");
+        const close = document.querySelector(".close-icon");
+        const heroPadding = document.querySelector(".hero-padding");
+        const iconRemove = document.querySelector(".menu-remove");
+
+        menu.addEventListener("click", () => {
+          if (menuIcon.style.display !== "none") {
+            menuIcon.style.display = "none";
+            close.style.display = "block";
+            heroPadding.style.cssText = "margin-top: 20rem;"  
+          } else {
+            menuIcon.style.display = "block";
+            close.style.display = "none";
+            heroPadding.style.cssText = "margin-top: 0;"
+          }
+
+          links.classList.toggle("hamburger-menu");
+          
+        });
+      })
+      .catch((error) => {
+        console.error('Error fetching components:', error);
+      });
+  };
+
+  window.onload = () => {
+    loadComponents("header", "src/sections/header.html");
+    loadComponents("about", "src/sections/about.html");
+    loadComponents("services", "src/sections/services.html");
+    loadComponents("sticky-yellow", "src/sections/sticky-yellow.html");
+    loadComponents("reference", "src/sections/reference.html");
+    loadComponents("footer", "src/sections/footer.html");
+    loadComponents("hero", "src/sections/hero.html");
+  };
+</script>
