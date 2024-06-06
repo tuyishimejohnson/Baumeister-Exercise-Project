@@ -774,6 +774,10 @@ video {
   width: 43%;
 }
 
+.w-50\%{
+  width: 50%;
+}
+
 .w-54w{
   width: 13.5rem;
 }
@@ -1370,6 +1374,10 @@ video {
     width: 27%;
   }
 
+  .lg\:w-30\%{
+    width: 30%;
+  }
+
   .lg\:w-35\%{
     width: 35%;
   }
@@ -1384,10 +1392,6 @@ video {
 
   .lg\:w-48\%{
     width: 48%;
-  }
-
-  .lg\:w-50\%{
-    width: 50%;
   }
 
   .lg\:w-8\/12{
@@ -1482,8 +1486,12 @@ video {
     height: 44rem;
   }
 
-  .xl\:w-45\%{
-    width: 45%;
+  .xl\:w-35\%{
+    width: 35%;
+  }
+
+  .xl\:w-489{
+    width: 489px;
   }
 
   .xl\:text-4xl{
@@ -1497,12 +1505,12 @@ video {
     height: 55rem;
   }
 
-  .\32xl\:w-40{
-    width: 10rem;
+  .\32xl\:w-35\%{
+    width: 35%;
   }
 
-  .\32xl\:w-40\%{
-    width: 40%;
+  .\32xl\:w-489{
+    width: 489px;
   }
 
   .\32xl\:text-5xl{
