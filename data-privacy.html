@@ -15,8 +15,7 @@
           const menu = document.getElementById("menu");
           const links = document.getElementById("links");
           const menuIcon = document.querySelector(".open-icon");
-          const close = document.querySelector(".close-icon");
-          const iconRemove = document.querySelector(".menu-remove");
+          const close = document.querySelector(".green-close-icon");
 
           menu.addEventListener("click", () => {
             if (menuIcon.style.display !== "none") {
@@ -32,7 +31,7 @@
     };
 
     window.onload = () => {
-      loadComponents("header", "src/sections/header.html");
+      loadComponents("header", "src/sections/data-privacy-header.html");
       loadComponents("data-privacy", "src/sections/data-privacy.html");
       loadComponents("footer", "src/sections/footer.html");
     };
