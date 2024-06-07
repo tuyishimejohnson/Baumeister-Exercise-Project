@@ -38,12 +38,21 @@
         const close = document.querySelector(".close-icon");
         const heroPadding = document.querySelector(".hero-padding");
         const iconRemove = document.querySelector(".menu-remove");
+        const heroText = document.getElementById("hero-text")
+
+        menuIcon.addEventListener("click", () => {          
+          heroText.classList.add("hidden")
+        })
+
+        close.addEventListener("click", () => {          
+          heroText.classList.remove("hidden")
+        })
 
         menu.addEventListener("click", () => {
           if (menuIcon.style.display !== "none") {
             menuIcon.style.display = "none";
             close.style.display = "block";
-            heroPadding.style.cssText = "margin-top: 20rem;"  
+            heroPadding.style.cssText = "margin-top: 18rem;"  
           } else {
             menuIcon.style.display = "block";
             close.style.display = "none";
