@@ -12,7 +12,7 @@
       <!-- header -->
       <section id="header"></section>
       <!-- sections -->
-      <div class="mt-12vh ">
+      <div class="hide1 mt-12vh">
         <section id="hero"></section>
         <section id="about"></section>
         <section id="sticky-yellow" class="sticky top-0  "></section>
@@ -22,6 +22,9 @@
           <a href="data-privacy.html"><img src="src/assets/images/red-vector.svg" alt="Red-shape" class="m-auto"/></a>
         </div>
         <section id="footer"></section>
+      </div>
+      <div class="hide2">
+        <section id="hidden-pages"></section>
       </div>
     </div>
   </body>
@@ -38,16 +41,27 @@
         const close = document.querySelector(".close-icon");
         const heroPadding = document.querySelector(".hero-padding");
         const iconRemove = document.querySelector(".menu-remove");
+        const hideSection = document.querySelector(".hide-section")
+        console.log(hideSection)
+
+        const hiddenOne = document.querySelector(".hide1")
+        const hiddenTwo = document.querySelector(".hide2")
+    
 
         menu.addEventListener("click", () => {
+
           if (menuIcon.style.display !== "none") {
-            menuIcon.style.display = "none";
-            close.style.display = "block";
-            heroPadding.style.cssText = "margin-top: 20rem;"  
+            /* menuIcon.style.display = "none";
+            close.style.display = "block"; */
+            heroPadding.style.cssText = "margin-top: 15rem;" 
+            hiddenOne.style.cssText = "display: none;"
+            hideSection.style.cssText = "display: none;"
           } else {
-            menuIcon.style.display = "block";
-            close.style.display = "none";
+            /* menuIcon.style.display = "block";
+            close.style.display = "none"; */
             heroPadding.style.cssText = "margin-top: 0;"
+            hiddenTwo.style.cssText = "display: block;"
+            hideSection.style.cssText = "display: block;"
           }
 
           links.classList.toggle("hamburger-menu");
@@ -67,5 +81,6 @@
     loadComponents("reference", "src/sections/reference.html");
     loadComponents("footer", "src/sections/footer.html");
     loadComponents("hero", "src/sections/hero.html");
+    loadComponents("hidden-pages", "src/sections/hidden-pages.html");
   };
 </script>

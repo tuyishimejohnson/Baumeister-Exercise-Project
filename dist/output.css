@@ -928,6 +928,11 @@ video {
   background-color: rgb(239 236 234 / var(--tw-bg-opacity));
 }
 
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
 .bg-hero-pattern{
   background-image: url('/src/assets/images/yellow-background-vector.svg');
 }
@@ -1097,6 +1102,14 @@ video {
 
 .close-icon {
   display: none;
+}
+
+.hide1 {
+  display: block;
+}
+
+.hide2 {
+  display: hidden;
 }
 
 @media (min-width: 640px){

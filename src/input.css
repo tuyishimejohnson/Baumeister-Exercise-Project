@@ -15,3 +15,14 @@
 .close-icon {
     display: none;
 }
+
+
+
+.hide1 {
+    display: block;
+}
+
+
+.hide2 {
+    display: hidden;
+}
