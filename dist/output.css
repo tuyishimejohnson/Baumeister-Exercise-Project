@@ -786,8 +786,12 @@ video {
   width: 55%;
 }
 
-.w-65\%{
-  width: 65%;
+.w-60{
+  width: 15rem;
+}
+
+.w-60\%{
+  width: 60%;
 }
 
 .w-68\%{
@@ -852,6 +856,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
 .gap-10{
   gap: 2.5rem;
 }
@@ -866,10 +874,6 @@ video {
 
 .gap-4{
   gap: 1rem;
-}
-
-.gap-5{
-  gap: 1.25rem;
 }
 
 .gap-7{
@@ -1008,11 +1012,6 @@ video {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-4xl{
@@ -1162,8 +1161,16 @@ video {
     z-index: 20;
   }
 
+  .md\:mt-10{
+    margin-top: 2.5rem;
+  }
+
   .md\:block{
     display: block;
+  }
+
+  .md\:flex{
+    display: flex;
   }
 
   .md\:hidden{
@@ -1186,6 +1193,14 @@ video {
     width: 5rem;
   }
 
+  .md\:w-40{
+    width: 10rem;
+  }
+
+  .md\:w-40\%{
+    width: 40%;
+  }
+
   .md\:w-55\%{
     width: 55%;
   }
@@ -1194,8 +1209,12 @@ video {
     width: 66.666667%;
   }
 
-  .md\:w-full{
-    width: 100%;
+  .md\:w-80{
+    width: 20rem;
+  }
+
+  .md\:w-70\%{
+    width: 70%;
   }
 
   .md\:flex-row{
@@ -1218,9 +1237,22 @@ video {
     gap: 5rem;
   }
 
+  .md\:self-end{
+    align-self: flex-end;
+  }
+
+  .md\:p-0{
+    padding: 0px;
+  }
+
   .md\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:px-14{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 
   .md\:pb-24{
@@ -1239,9 +1271,17 @@ video {
     padding-top: 4rem;
   }
 
+  .md\:text-right{
+    text-align: right;
+  }
+
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-32px{
+    font-size: 32px;
   }
 
   .md\:text-4xl{
@@ -1394,8 +1434,16 @@ video {
     width: 48%;
   }
 
+  .lg\:w-65\%{
+    width: 65%;
+  }
+
   .lg\:w-8\/12{
     width: 66.666667%;
+  }
+
+  .lg\:w-85\%{
+    width: 85%;
   }
 
   .lg\:w-9\/12{
@@ -1418,16 +1466,16 @@ video {
     justify-content: space-around;
   }
 
+  .lg\:gap-10{
+    gap: 2.5rem;
+  }
+
   .lg\:gap-14{
     gap: 3.5rem;
   }
 
   .lg\:gap-2{
     gap: 0.5rem;
-  }
-
-  .lg\:gap-36{
-    gap: 9rem;
   }
 
   .lg\:py-0{
