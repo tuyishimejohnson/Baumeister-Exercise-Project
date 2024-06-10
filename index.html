@@ -1,16 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/input.css">
-    <title>Document</title>
-</head>
-<body>
-    <header class="text-green-200">This the header</header>
-    <section class="text-red-700">This is the hero section</section>
-    <section class="text-blue-700">This is the about section</section>
-    <section class="text-yellow-700">This is the contact section</section>
-    <footer class="text-purple-700">This is the footer</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Baumeister</title>
+  </head>
+ 
+  <body class="bg-backgroundWhitish font-outfit">
+    <div class="max-w-1600 mx-auto">
+      <!-- header -->
+      <section id="header"></section>
+      <!-- sections -->
+      <div class="mt-12vh ">
+        <section id="hero"></section>
+        <section id="about"></section>
+        <section id="sticky-yellow" class="sticky top-0  "></section>
+        <section id="services"></section>
+        <section id="reference" class=""></section>
+        <div class="pb-20 pt-72 w-331 m-auto lg:py-24 block md:hidden">
+          <a href="data-privacy.html"><img src="src/assets/images/red-vector.svg" alt="Red-shape" class="m-auto"/></a>
+        </div>
+        <section id="footer"></section>
+      </div>
+    </div>
+  </body>
 </html>
+<script>
+  const loadComponents = (id, url) => {
+    fetch(url)
+      .then((response) => response.text())
+      .then((html) => {
+        document.getElementById(id).innerHTML = html;
+        const menu = document.getElementById("menu");
+        const links = document.getElementById("links");
+        const menuIcon = document.querySelector(".open-icon");
+        const close = document.querySelector(".close-icon");
+        const heroPadding = document.querySelector(".hero-padding");
+        const iconRemove = document.querySelector(".menu-remove");
+        const heroText = document.getElementById("hero-text")
+
+        menuIcon.addEventListener("click", () => {          
+          heroText.classList.add("hidden")
+        })
+
+        close.addEventListener("click", () => {          
+          heroText.classList.remove("hidden")
+        })
+
+        menu.addEventListener("click", () => {
+          if (menuIcon.style.display !== "none") {
+            menuIcon.style.display = "none";
+            close.style.display = "block";
+            heroPadding.style.cssText = "margin-top: 18rem;"  
+          } else {
+            menuIcon.style.display = "block";
+            close.style.display = "none";
+            heroPadding.style.cssText = "margin-top: 0;"
+          }
+
+          links.classList.toggle("hamburger-menu");
+          
+        });
+      })
+      .catch((error) => {
+        console.error('Error fetching components:', error);
+      });
+  };
+
+  window.onload = () => {
+    loadComponents("header", "src/sections/header.html");
+    loadComponents("about", "src/sections/about.html");
+    loadComponents("services", "src/sections/services.html");
+    loadComponents("sticky-yellow", "src/sections/sticky-yellow.html");
+    loadComponents("reference", "src/sections/reference.html");
+    loadComponents("footer", "src/sections/footer.html");
+    loadComponents("hero", "src/sections/hero.html");
+  };
+</script>

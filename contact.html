@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Baumeister</title>
+  </head> 
+
+  <body class="bg-backgroundWhitish">
+    <section id="header" class="text-customGreen"></section>
+    <section id="contact"></section>
+    <section id="footer" class="pt-20 text-customGreen"></section>
+  </body>
+</html>
+
+<script>
+  const loadComponents = (id, url) => {
+    fetch(url)
+      .then((response) => response.text())
+      .then((html) => {
+        document.getElementById(id).innerHTML = html;
+        const menu = document.getElementById("menu");
+        const links = document.getElementById("links");
+        const menuIcon = document.querySelector(".open-icon");
+        const closeIcon = document.querySelector(".green-close-icon");
+
+        menu.addEventListener("click", () => {
+          if (menuIcon.style.display !== "none") {
+            menuIcon.style.display = "none";
+            closeIcon.style.display = "block";
+          } else {
+            menuIcon.style.display = "block";
+            closeIcon.style.display = "none";
+          }
+          links.classList.toggle("hamburger-menu");
+        });
+      })
+      .catch((error) => {
+        console.error('Error fetching components:', error);
+      });
+};
+
+  window.onload = () => {
+    loadComponents("header", "src/sections/contact-header.html");
+    loadComponents("contact", "src/sections/contact.html");
+    loadComponents("footer", "src/sections/footer.html");
+  };
+</script>
